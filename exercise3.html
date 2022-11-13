@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Exercise 3</title>
+			<script type="text/javascript" src="exercise3.js"></script>
+			<link rel="stylesheet" href="exercise3.css">
+		</head>
+		<body>
+			<h1>Exercise 3</h1>
+			<form action="exercise3.php" method="post" onsubmit="return checkInputs()">
+				Email:<br>
+				<input type="email" name="username"><br>
+				Password:<br>
+				<input type="password" name="password"><br>
+				Box ($19.99)
+				<img src="https://img.uline.com/is/image/uline/S-4061?$Mobile_Zoom$" width="100" height="100">
+				<input type="text" name="box" value="0"><br>
+				Bananas ($1.50)
+				<img src="https://images.heb.com/is/image/HEBGrocery/000377497?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0" width="100" height="100">
+                                <input type="text" name="banana" value="0"><br>
+				Duct Tape ($3,999.99)
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Duct-tape.jpg/1200px-Duct-tape.jpg" width="100" height="100">
+                                <input type="text" name="tape" value="0"><br>
+				<h5>Shipping Options:</h5>
+				Free 7-day<br>
+				<input type="radio" name="shipping" value="0"><br>
+				$5.00 3-day<br>
+				<input type="radio" name="shipping" value="5"><br>
+				$50.00 Overnight<br>
+				<input type="radio" name="shipping" value="50"><br>
+				<input type="reset" value="Reset">
+        			<input type="submit" value="Checkout">
+    			</form>
+		</body>
+	</html>
